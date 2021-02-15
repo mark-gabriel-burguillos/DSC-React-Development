@@ -1,0 +1,16 @@
+.bauble {
+  margin-left: 1px;
+  margin-top: 5px;
+  font-size: 120%;
+}
+
+.baubles__bubble {
+  display: flex;
+  align-self: center;
+  border: 1.5px solid white;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  width: 35px;
+}

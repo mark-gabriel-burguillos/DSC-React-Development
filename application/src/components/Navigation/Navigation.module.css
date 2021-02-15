@@ -1,0 +1,41 @@
+.navigation__sticky {
+  background-color: rgba(255, 255, 255, 0.97);
+  padding: 0;
+  box-shadow: 0 2px 10px #afafaf;
+  padding: 10px 0;
+}
+
+.navigation__sticky .logo span {
+  color: green;
+}
+
+.logo {
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5%;
+}
+
+.logo span {
+  font-weight: 500;
+  font-family: "Oswald", sans-serif;
+  font-size: 220%;
+  color: white;
+  line-height: 1;
+}
+
+.navigationList {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-self: center;
+}
+
+.navigationItem {
+  margin-right: 5px;
+}
+
+.navigationItem:last-child {
+  margin-right: 5%;
+}

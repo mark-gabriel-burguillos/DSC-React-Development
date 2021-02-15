@@ -1,0 +1,10 @@
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 100, 0, 0.6)),
+    url(../../assets/images/DLSU-Manila-Campus.jpg);
+  /* There could be some potential in using this hero image */
+  /* background-image: url(../../assets/images/DLSU-GDG-Hero.jpg); */
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}

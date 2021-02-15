@@ -1,0 +1,46 @@
+.hero {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__hero {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 350%;
+  text-transform: uppercase;
+  word-spacing: 5px;
+  letter-spacing: 1px;
+  color: white;
+  display: inline;
+}
+
+.hero_memberCount {
+  margin: 10px 0;
+  font-size: 130%;
+  color: white;
+}
+
+.hero_baublesList {
+  margin-top: 20px;
+  display: flex;
+}
+
+.baublesItem {
+  margin-right: 15px;
+}
+
+.attributes {
+  position: absolute;
+  bottom: 5%;
+  right: 3%;
+  color: white;
+  font-size: 13px;
+}
+
+.attributes a {
+  color: white;
+  text-decoration: underline;
+}

@@ -1,0 +1,12 @@
+.technologyList {
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 1px 0 5px gray;
+  transition: box-shadow 0.5s;
+  display: flex;
+  flex-direction: column;
+}
+
+.technologyList:hover {
+  box-shadow: 1px 0 15px black;
+}

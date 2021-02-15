@@ -1,0 +1,28 @@
+.spotlight {
+  display: flex;
+  flex-direction: column;
+  border-radius: 2%;
+  overflow: hidden;
+  width: 300px;
+  height: 350px;
+  background-color: white;
+}
+
+.spotlight__content {
+  padding: 16px 24px;
+}
+
+.spotlight__content span {
+  font-family: "Google Sans", "Lato";
+  font-weight: 500;
+  font-size: 18px;
+  color: #202124;
+  word-spacing: 2px;
+}
+
+.spotlight__content p {
+  font-family: "Roboto";
+  font-size: 14px;
+  color: #5f6368;
+  margin-top: 20px;
+}

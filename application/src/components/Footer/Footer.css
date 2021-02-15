@@ -1,0 +1,12 @@
+footer {
+  height: 100px;
+  background-color: #17171a;
+  position: relative;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+footer div p {
+  color: #8f8f8f;
+}

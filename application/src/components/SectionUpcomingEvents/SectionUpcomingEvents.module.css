@@ -1,0 +1,17 @@
+.spotlight_headerLine {
+  margin-left: 8%;
+  margin-bottom: 30px;
+}
+
+.spotlight_carousel {
+  background: linear-gradient(white 10%, #f2f2f2 60%);
+  padding-bottom: 50px;
+}
+
+.upcomingEvent {
+  padding-top: 50px;
+}
+
+.upcomingEvent h1 {
+  margin-bottom: 20px;
+}

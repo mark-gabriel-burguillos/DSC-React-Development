@@ -1,0 +1,30 @@
+.technologyCard {
+  cursor: pointer;
+  padding: 20px;
+  display: flex;
+}
+
+.technologyCard__active {
+  background-color: black;
+  color: white;
+}
+
+.technologyCard_ionicon {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.technologyCard_column {
+  flex: 1 1 5%;
+}
+
+.technologyCard_content h2 {
+  line-height: 100%;
+  margin-bottom: 5px;
+}
+
+.technologyCard_content p {
+  line-height: 150%;
+  color: #8b8b8b;
+}

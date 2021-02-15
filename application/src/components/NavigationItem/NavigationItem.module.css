@@ -1,0 +1,11 @@
+.navigationItem {
+  font-weight: 400;
+  font-size: 105%;
+  transition: border 0.2s, background 0.175s;
+  padding: 15px 12px;
+  white-space: nowrap;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}

@@ -1,0 +1,48 @@
+.sectionAboutUs {
+  display: flex;
+}
+
+.sectionAboutUs p {
+  margin: 20px 0;
+  font-size: 22px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.sectionAboutUs_column {
+  flex: 1 1 50%;
+}
+
+.sectionAboutUs_image {
+  flex: 1 1 50%;
+}
+
+.sectionAboutUs_image img {
+  max-width: 450px;
+  height: 450px;
+  border-radius: 2%;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.sectionAboutUsStatements {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.sectionAboutUsStatements::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  border-left: #f2f2f2 2px solid;
+  transform: translate(-50%);
+}
+
+.statementCard {
+  margin: 30px 0;
+}

@@ -1,0 +1,11 @@
+.headerLine {
+  margin-bottom: 50px;
+}
+
+.content {
+  display: flex;
+}
+
+.content_technologyList {
+  flex: 0 0 40%;
+}

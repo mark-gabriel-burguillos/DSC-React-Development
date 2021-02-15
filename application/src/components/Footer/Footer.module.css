@@ -1,0 +1,19 @@
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footerContainer__baublesList {
+  font-size: 150%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: absolute;
+  right: 3%;
+  top: 15%;
+}
+
+.baublesItem {
+  margin-right: 10px;
+}
